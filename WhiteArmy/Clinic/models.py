@@ -24,7 +24,7 @@ class Id (models.Model):
     age = property(age)
 
     def __str__(self):
-        return f"{self.patient_name} {self.gender} {self.marital_status} {self.national_id_number} {self.phone_number} {self.address} {self.email} {self.age} {self.other}"
+        return f"{self.first_name} {self.last_name}"
 
 
 class Present_complaint (models.Model):
